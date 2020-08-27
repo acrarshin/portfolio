@@ -46,6 +46,15 @@ let render_projects = (slug) => {
             description: "Interpreting Deep Neural Networks for Single-Lead ECG Arrhythmia Classification",
             categories: ['publication', 'dl', 'biosignal_a']
         },
+        {
+            image: 'assets/images/spo2.png',
+            link: 'https://arxiv.org/abs/2004.05399',
+            title: 'Reflectance Pulse Oximetry',
+            demo: 'https://arxiv.org/pdf/2004.06301.pdf',
+            technologies: ['Pytorch', 'Scripting'],
+            description: "Robust Modelling of Reflectance Pulse Oximetry for SpO2 Estimation",
+            categories: ['publication', 'biosignal_a']
+        }
     ]
 
     let projects = [];
