@@ -442,8 +442,12 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 80px;
+  color: white; 
 }
 
+.fa{
+color: red;
+}
 .head-inner-wrap {
   
 }
