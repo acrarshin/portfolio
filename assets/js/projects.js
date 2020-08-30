@@ -14,46 +14,51 @@ let render_projects = (slug) => {
             image: 'assets/images/OMNI.png',
             link: 'https://github.com/acrarshin/OMNI',
             title: 'OMNI',
-            demo: false,
+            code: 'https://github.com/acrarshin/OMNI',
+            paper: false,
             technologies: ['Pytorch'],
-            description: "Open Source biosignal DL models for robust monitoring of neonate breathing and cardiac health along with a well documented edge implementation guide",
+            description: "Open Source DL models for monitoring of neonate breathing and cardiac health along with a documented edge implementation guide",
             categories: ['dl', 'biosignal_a']
-        },
-        {
-            image: 'assets/images/RPNet.png',
-            link: 'https://github.com/acrarshin/RPNet',
-            title: 'RPNet',
-            demo: 'https://arxiv.org/abs/2004.08103',
-            technologies: ['Pytorch', 'Scripting'],
-            description: "A Deep Learning approach for robust R Peak detection in noisy ECG",
-            categories: ['publication', 'dl', 'biosignal_a']
         },
         {
             image: 'assets/images/KD_MRI.png',
             link: 'https://github.com/Bala93/KD-MRI',
             title: 'KD-MRI',
-            demo: 'https://arxiv.org/abs/2004.05319',
+            code: 'https://github.com/Bala93/KD-MRI',
+            paper: 'https://arxiv.org/abs/2004.05319',
             technologies: ['Pytorch', 'Scripting'],
             description: "A knowledge distillation framework for image reconstruction and image restoration in MRI workflow.",
             categories: ['publication', 'dl', 'medical_imaging']
         },
         {
-            image: 'assets/images/vizualization.png',
-            link: 'https://arxiv.org/abs/2004.05399',
-            title: 'ECG-Gradcam',
-            demo: 'https://arxiv.org/abs/2004.05399',
+            image: 'assets/images/RPNet.png',
+            link: 'https://github.com/acrarshin/RPNet',
+            title: 'RPNet',
+            code: 'https://github.com/acrarshin/RPNet',
+            paper: 'https://arxiv.org/abs/2004.08103',
             technologies: ['Pytorch', 'Scripting'],
-            description: "Interpreting Deep Neural Networks for Single-Lead ECG Arrhythmia Classification",
+            description: "A Deep Learning approach for robust R Peak detection in noisy ECG",
             categories: ['publication', 'dl', 'biosignal_a']
         },
         {
             image: 'assets/images/spo2.png',
             link: 'https://arxiv.org/abs/2004.05399',
             title: 'Reflectance Pulse Oximetry',
-            demo: 'https://arxiv.org/pdf/2004.06301.pdf',
+            code: false, 
+            paper: 'https://arxiv.org/abs/2004.05399',
             technologies: ['Pytorch', 'Scripting'],
             description: "Robust Modelling of Reflectance Pulse Oximetry for SpO2 Estimation",
             categories: ['publication', 'biosignal_a']
+        },
+        {
+            image: 'assets/images/vizualization.png',
+            link: 'https://arxiv.org/abs/2004.05399',
+            title: 'ECG-Gradcam',
+            code: false,
+            paper: 'https://arxiv.org/abs/2004.05399',
+            technologies: ['Pytorch', 'Scripting'],
+            description: "Interpreting Deep Neural Networks for Single-Lead ECG Arrhythmia Classification",
+            categories: ['publication', 'dl', 'biosignal_a']
         }
     ]
 
@@ -87,7 +92,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.code ? `<a href="${project.code}">[Code]</a>` : ''} ${project.paper ? `<a href="${project.paper}">[Paper]</a>` : ''}</p>
                     </article>
 
                                 
