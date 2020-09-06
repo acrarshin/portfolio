@@ -23,16 +23,16 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
+            url: 'https://compactml.wordpress.com/2020/08/31/article-2-on-the-intersection-of-human-computer-interaction-and-machine-learning/',
+            title: 'On the intersection of HCI and ML',
+        },
+        {
             url: 'https://compactml.wordpress.com/2020/08/17/article-1-research-to-industry/',
             title: 'Research to Industry',
         },
         {
             url: 'https://compactml.wordpress.com/2020/08/17/example-post-2/',
             title: 'The How, When and Who',
-        },
-        {
-            url: 'https://compactml.wordpress.com/2020/08/17/example-post-3/',
-            title: 'Why',
         },
         /*{
             url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
