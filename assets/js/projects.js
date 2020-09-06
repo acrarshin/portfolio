@@ -25,7 +25,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/Bala93/KD-MRI',
             title: 'KD-MRI',
             code: 'https://github.com/Bala93/KD-MRI',
-            paper: 'https://arxiv.org/abs/2004.05319',
+            paper: 'https://openreview.net/forum?id=OrBdiT86_O',
             technologies: ['Pytorch', 'Scripting'],
             description: "A knowledge distillation framework for image reconstruction and image restoration in MRI workflow.",
             categories: ['publication', 'dl', 'medical_imaging']
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/acrarshin/RPNet',
             title: 'RPNet',
             code: 'https://github.com/acrarshin/RPNet',
-            paper: 'https://arxiv.org/abs/2004.08103',
+            paper: 'https://ieeexplore.ieee.org/abstract/document/9176084',
             technologies: ['Pytorch', 'Scripting'],
             description: "A Deep Learning approach for robust R Peak detection in noisy ECG",
             categories: ['publication', 'dl', 'biosignal_a']
@@ -45,7 +45,7 @@ let render_projects = (slug) => {
             link: 'https://arxiv.org/abs/2004.05399',
             title: 'Reflectance Pulse Oximetry',
             code: false, 
-            paper: 'https://arxiv.org/abs/2004.05399',
+            paper: 'https://ieeexplore.ieee.org/document/9176410?denied=',
             technologies: ['Pytorch', 'Scripting'],
             description: "Robust Modelling of Reflectance Pulse Oximetry for SpO2 Estimation",
             categories: ['publication', 'biosignal_a']
@@ -55,7 +55,7 @@ let render_projects = (slug) => {
             link: 'https://arxiv.org/abs/2004.05399',
             title: 'ECG-Gradcam',
             code: false,
-            paper: 'https://arxiv.org/abs/2004.05399',
+            paper: 'https://ieeexplore.ieee.org/document/9176396',
             technologies: ['Pytorch', 'Scripting'],
             description: "Interpreting Deep Neural Networks for Single-Lead ECG Arrhythmia Classification",
             categories: ['publication', 'dl', 'biosignal_a']
