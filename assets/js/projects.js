@@ -11,6 +11,16 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/report.jpg',
+            link: 'https://netrin.tech/repose.html',
+            title: 'Repose - Lead Algorithm Developer',
+            code: false,
+            paper: false,
+            technologies: ['Python'],
+            description: "Lifestyle Assessment - Uses HRV analysis and IMU's to quantify Stress, Recovery, Activity and Sleep",
+            categories: ['biosignal_a']
+        },
+        { 
             image: 'assets/images/OMNI.png',
             link: 'https://github.com/acrarshin/OMNI',
             title: 'OMNI',
