@@ -18,9 +18,19 @@ let render_projects = (slug) => {
             paper: false,
             technologies: ['Python'],
             description: "Lifestyle Assessment - Uses HRV analysis and IMU's to quantify Stress, Recovery, Activity and Sleep",
-            categories: ['biosignal_a']
+            categories: ['biosignal_a', 'product']
         },
-        { 
+        {
+            image: 'assets/images/rsz_recon_syn.png',
+            link: 'https://www.sciencedirect.com/science/article/abs/pii/S0895611121000914',
+            title: 'Hollistic MRI reconstruction',
+            code: false,
+            paper: false,
+            technologies: ['Python'],
+            description: "A deep cascade of ensemble of dual domain networks with gradient-based T1 assistance and perceptual refinement for fast MRI reconstruction",
+            categories: ['publication', 'dl', 'medical_imaging']
+        },
+       { 
             image: 'assets/images/OMNI.png',
             link: 'https://github.com/acrarshin/OMNI',
             title: 'OMNI',

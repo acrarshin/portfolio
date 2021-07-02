@@ -34,14 +34,6 @@ function blog_posts() {
             url: 'https://compactml.wordpress.com/2020/08/17/example-post-2/',
             title: 'The How, When and Who',
         },
-        /*{
-            url: 'https://www.nagekar.com/2017/08/private-cloud-part-2.html',
-            title: 'Private Cloud Part 2 | Encrypted Storage With NextCloud',
-        },
-        {
-            url: 'https://www.nagekar.com/2018/07/eli5-how-https-works.html',
-            title: 'ELI5 - How HTTPS Works',
-        },*/
     ];
 
     let post_html = [];
